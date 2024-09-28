@@ -1,7 +1,7 @@
-<table style="border: none; width: 100;">
+<table style="border: none; width: 100%;">
   <tr style="border: none;">
     <td style="border: none; font-size: 16px;">
-      <h2 style="margin: 0;">Hello Everyone! 👋 </h2>
+      <h1 style="margin: 0;">Hello Everyone! 👋 </h1>
       <p style="margin: 5px 0;">🌐 I am Sameer Sharma, a front end web developer, and a...<br>💻 Computer Science engineering student<br>🎯My goal is to always keep improving my skillset on coding and problem-solving<br>🍀 I'm loving the journey so far, and I'm excited for more challenges and new experiences..<br><br></p>
     </td>
     <td style="border: none; vertical-align: top; width: 150px;">
