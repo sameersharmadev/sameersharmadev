@@ -4,21 +4,3 @@
 ## Tech Stack
 <img src="./Tech Stack-dark.png" style="pointer-events: none">
 
-## Socials
-<span href="[mailto:sameerkw77@gmail.com](https://www.linkedin.com/in/sameersharma777/)">
-    <img src="./socials/linkedin-dark.png" alt="Email Image">
-</span>
-&nbsp 
-<span href="https://x.com/Sameersharma_77">
-    <img src="./socials/twitter.png" alt="Email Image">
-</span>
-&nbsp 
-<span href="tel:+917827114083">
-    <img src="./socials/whatsapp.png" alt="Email Image">
-</span>
-&nbsp
-<span href="mailto:sameerkw77@gmail.com">
-    <img src="./socials/email.png" alt="Email Image">
-</span>
-
-
