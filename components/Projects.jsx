@@ -55,7 +55,7 @@ export default function Projects() {
                                 href={project.code}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="px-3 py-1.5 text-sm rounded-md bg-white/10 hover:bg-white/20 text-white transition"
+                                className="px-3 py-1.5 text-sm rounded-md bg-gray-200 text-gray-800 hover:bg-gray-300 dark:bg-white/10 dark:text-white dark:hover:bg-white/20 transition"
                             >
                                 View Code
                             </a>
@@ -63,15 +63,16 @@ export default function Projects() {
                                 href={project.live}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="px-3 py-1.5 text-sm rounded-md bg-white/10 hover:bg-white/20 text-white transition"
+                                className="px-3 py-1.5 text-sm rounded-md bg-gray-200 text-gray-800 hover:bg-gray-300 dark:bg-white/10 dark:text-white dark:hover:bg-white/20 transition"
                             >
                                 Live Demo
                             </a>
                         </div>
 
+
                         {/* Divider */}
                         {index < projects.length - 1 && (
-                            <div className="border-t border-white/20 mt-6"></div>
+                            <div className="border-t border-gray-300 dark:border-white/20 mt-6"></div>
                         )}
                     </div>
                 ))}
