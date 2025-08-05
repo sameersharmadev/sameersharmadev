@@ -6,7 +6,8 @@ import Projects from "@/components/Projects";
 export default function Home() {
   return (
     <>
-      <section className="flex flex-col md:flex-row max-w-6xl mx-auto h-[calc(100vh)] overflow-y-auto hide-scrollbar">
+      <section className=" h-[calc(100vh)] overflow-y-auto hide-scrollbar">
+        <div className="flex flex-col md:flex-row max-w-6xl mx-auto">
         <Sidebar />
         <div className="flex-1">
           <Hero />
@@ -16,6 +17,7 @@ export default function Home() {
           <footer className="py-6 text-center text-sm text-gray-600 dark:text-gray-400">
             © Sameer Sharma 2025. All rights reserved.
           </footer>
+        </div>
         </div>
       </section>
 
