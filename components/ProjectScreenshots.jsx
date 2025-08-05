@@ -28,7 +28,7 @@ export default function ProjectScreenshots({ projectId, totalScreens }) {
         `/projects/${projectId}/${mode}/${i + 1}.png`
     );
 
-    const maxThumbs = isMobile ? 3 : 6;
+    const maxThumbs = isMobile ? 3 : 4;
     const visibleImages = images.slice(0, maxThumbs);
     const extraCount = totalScreens - maxThumbs;
 
