@@ -1,8 +1,8 @@
-import { Mail, Linkedin, Github } from "lucide-react";
+import { Mail, Github } from "lucide-react";
 
 export default function AboutSection() {
     return (
-        <section className="flex flex-col md:flex-row gap-8 items-start w-full max-w-6xl mx-auto p-6 mt-8">
+        <section className="flex flex-col md:flex-row gap-8 items-start w-full max-w-6xl mx-auto p-6 md:mt-8">
             {/* Right About Text */}
             <div className="space-y-4">
                 <h3 className="text-3xl font-bold">About</h3>

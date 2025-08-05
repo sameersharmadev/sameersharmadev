@@ -4,8 +4,8 @@ import Image from 'next/image';
 
 function ExperienceCard({ id, company, title, duration, description, type }) {
     return (
-        <div className="pt-3 space-y-2">
-            <div className="flex items-start justify-between">
+        <div className="pt-3 space-y-1 md:space-y-2">
+            <div className="flex items-start flex-col md:flex-row gap-2 justify-between">
                 <div className="flex items-center space-x-4">
                     <div className="relative w-10 h-10 flex-shrink-0 rounded-full overflow-hidden bg-white">
                         <Image
@@ -16,14 +16,14 @@ function ExperienceCard({ id, company, title, duration, description, type }) {
                         />
                     </div>
                     <div>
-                        <h3 className="text-lg font-semibold">{company}</h3>
+                        <h3 className="text-lg font-semibold leading-tight">{company}</h3>
                         <p className="text-sm text-muted-foreground">{title}</p>
                     </div>
                 </div>
                 <p className="text-sm text-muted-foreground whitespace-nowrap">{duration}</p>
             </div>
             {description && (
-                <p className="text-sm text-muted-foreground pl-14">{description}</p>
+                <p className="text-sm text-muted-foreground">{description}</p>
             )}
         </div>
     );
@@ -39,7 +39,7 @@ export default function Experience() {
             title: 'Full Stack Intern',
             duration: 'Jun 2025 - Jul 2025',
             description:
-                'Learned to build secure, feature-rich web apps with React, Tailwind, and Supabase, focusing on auth, access control, and API performance.',
+                'Got experience building secure, feature-rich web apps with React, Tailwind, and Supabase, focusing on auth, access control, and API performance.',
         },
     ];
 
@@ -47,9 +47,9 @@ export default function Experience() {
         {
             id: 'mait',
             company: 'Maharaja Agrasen Institute of Technology',
-            title: 'B.Tech in Computer Science (CSE)',
+            title: 'B.Tech (CSE)',
             duration: 'Aug 2023 - Jul 2027',
-            description: '',
+            description: 'Pursuing core CS subjects including Data Structures, Operating Systems, and Software Engineering. Actively involved in development.',
         },
     ];
 

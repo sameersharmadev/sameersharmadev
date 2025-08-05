@@ -6,6 +6,7 @@
 }
 
 @theme inline {
+  --breakpoint-md: 60rem;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
