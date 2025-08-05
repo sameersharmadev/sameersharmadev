@@ -1,5 +1,5 @@
 import "./globals.css";
-
+import { ThemeProvider } from "next-themes";
 
 export const metadata = {
   title: "Sameer Sharma",
@@ -24,14 +24,17 @@ export const metadata = {
   creator: "Sameer Sharma",
 };
 
-
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`font-sans antialiased`}
-      >
-        {children}
+    <html lang="en" suppressHydrationWarning>
+      <body className="font-sans antialiased">
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem={true}
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

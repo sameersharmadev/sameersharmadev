@@ -1,19 +1,24 @@
+import ProjectScreenshots from './ProjectScreenshots';
 const projects = [
     {
+        id: "devlog",
         title: "Devlog - Collaborative Blogging Platform",
         live: "https://devlog.sameersharma.me/",
         code: "https://github.com/sameersharmadev/devlog",
         description:
             "A developer-focused collaborative blogging platform inspired by dev.to, supporting technical writing with a Markdown editor and social features. The platform includes user authentication using JWT and Google OAuth, enabling secure and frictionless sign-ins. I designed features such as public user profiles, threaded comments, and real-time updates powered by Supabase. To enhance discoverability and engagement, I implemented search functionality, trending feeds, image uploads, and SEO-optimized post structures.",
         tags: ["React", "PostgreSQL", "ShadCN", "TailwindCSS"],
+        screens: 7,
     },
     {
+        id: "chrono",
         title: "Chrono - Task Management Application",
         live: "https://chrono.sameersharma.me/",
         code: "https://github.com/sameersharmadev/chrono",
         description:
             "A productivity app to help users stay on top of their tasks with reminders, subtasks, and a calendar-based view that tracks progress over time. I handled the backend using Express and PostgreSQL, setting up REST APIs to manage tasks and user data. To keep things smooth and informative, I added a paginated dashboard with weekly summaries and insights. The UI is fully responsive and supports dark/light mode, built with React and Tailwind CSS, with modals for quick task creation and edits.",
         tags: ["React", "PostgreSQL", "TailwindCSS", "Express"],
+        screens: 6,
     },
 ];
 
@@ -48,7 +53,12 @@ export default function Projects() {
 
                         {/* Description */}
                         <p className="text-sm text-muted-foreground">{project.description}</p>
-
+                        {project.screens && (
+                            <ProjectScreenshots
+                                projectId={project.id}
+                                totalScreens={project.screens}
+                            />
+                        )}
                         {/* Buttons */}
                         <div className="flex gap-3">
                             <a
