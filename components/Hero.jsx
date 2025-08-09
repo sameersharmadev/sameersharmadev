@@ -13,7 +13,7 @@ export default function AboutSection() {
                     </p>
 
                     <p className="mb-2">
-                        I worked on full-stack projects as an intern at <a href="https://drive.google.com/file/d/1Pkx0Ie2Rl1q76cYx5Cczp4aegjVH4ttr/view" className="text-blue-500 hover:opacity-80" target="_blank" rel="noopener noreferrer">Cantilever</a>, where I designed efficient APIs with query optimizations, and built responsive UIs using React. I have also independently developed a <a href="http://chrono.sameersharma.me" className="text-blue-500 hover:opacity-80" target="_blank" rel="noopener noreferrer">task management tool</a> with progress tracking and a collaborative <a href="http://devlog.sameersharma.me" className="text-blue-500 hover:opacity-80" target="_blank" rel="noopener noreferrer">blogging platform</a> for developers with markdown editor and social features.
+                        I worked on full-stack projects as an intern at <a href="https://cantilever.in" className="text-blue-500 hover:opacity-80" target="_blank" rel="noopener noreferrer">Cantilever</a>, where I designed efficient APIs with query optimizations, and built responsive UIs using React. I have also independently developed a <a href="http://chrono.sameersharma.me" className="text-blue-500 hover:opacity-80" target="_blank" rel="noopener noreferrer">task management tool</a> with progress tracking and a collaborative <a href="http://devlog.sameersharma.me" className="text-blue-500 hover:opacity-80" target="_blank" rel="noopener noreferrer">blogging platform</a> for developers with markdown editor and social features.
                     </p>
 
                     <p className="mb-2">
