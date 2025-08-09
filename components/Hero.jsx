@@ -17,7 +17,7 @@ export default function AboutSection() {
                     </p>
 
                     <p className="mb-2">
-                        I also <a href="https://inclearsite.sameersharma.me/" className="text-blue-500 hover:opacity-80" target="_blank" rel="noopener noreferrer">freelance</a> and help brands build their online presence with conversion focussed websites. I also love open source and have contributed to some of my favorite projects.
+                        I also <a href="https://inclearsite.sameersharma.me/" className="text-blue-500 hover:opacity-80" target="_blank" rel="noopener noreferrer">freelance</a> and help brands build their online presence with conversion focussed websites. I love open source and have contributed to some of my favorite projects.
                     </p>
                 </div>
 
