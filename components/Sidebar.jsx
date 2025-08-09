@@ -5,8 +5,8 @@ export default function AboutSidebar() {
         <aside className="w-full md:w-1/4 p-6 md:sticky md:top-12 self-start">
             <div className="flex flex-col items-start">
                 <img
-                    src="/profile.jpg"
-                    alt="Profile"
+                    src="/profile.webp"
+                    alt="Profile Picture"
                     className="w-36 h-36 rounded-full object-cover shadow-md border border-gray-300 dark:border-gray-800"
                 />
                 <h2 className="text-2xl font-semibold mt-4">Sameer Sharma</h2>
