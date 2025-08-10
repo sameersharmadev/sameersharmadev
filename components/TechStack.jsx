@@ -38,7 +38,7 @@ export default function TechStack() {
                     return (
                         <div
                             key={tech.name}
-                            className="flex items-center space-x-2 p-3 rounded-lg transition-colors bg-gray-100 hover:bg-gray-200 dark:bg-white/5 dark:hover:bg-white/10"
+                            className="flex items-center space-x-2 p-3 rounded-lg transition-colors bg-gray-100 dark:bg-white/5"
 
                         >
                             <Icon className="w-5 h-5 text-primary-foreground" />
