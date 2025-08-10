@@ -30,7 +30,7 @@ const techStack = [
 
 export default function TechStack() {
     return (
-        <section className="max-w-6xl mx-auto p-6 mt-4">
+        <section className="max-w-6xl mx-auto p-6 mt-4 cursor-default">
             <h3 className="text-3xl font-bold mb-6">Technologies</h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
                 {techStack.map((tech) => {

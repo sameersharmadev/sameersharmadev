@@ -2,7 +2,7 @@ import { Mail, MapPin } from "lucide-react";
 
 export default function AboutSidebar() {
     return (
-        <aside className="w-full md:w-1/4 p-6 md:sticky md:top-12 self-start">
+        <aside className="w-full md:w-1/4 p-6 md:sticky md:top-12 self-start cursor-default">
             <div className="flex flex-col items-start">
                 <img
                     src="/profile.webp"

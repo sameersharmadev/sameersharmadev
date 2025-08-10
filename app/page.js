@@ -14,7 +14,7 @@ export default function Home() {
           <WorkExperience />
           <TechStack />
           <Projects />
-          <footer className="py-6 text-center text-sm text-gray-600 dark:text-gray-400">
+          <footer className="py-6 text-center text-sm text-gray-600 dark:text-gray-400 cursor-default">
             © Sameer Sharma 2025. All rights reserved.
           </footer>
         </div>

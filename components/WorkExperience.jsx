@@ -56,10 +56,10 @@ export default function Experience() {
     const data = activeTab === 'work' ? workExperience : educationExperience;
 
     return (
-        <section className="max-w-6xl mx-auto p-6">
+        <section className="max-w-6xl mx-auto p-6 cursor-default">
             <div className="flex w-full rounded-lg overflow-hidden mb-2">
                 <button
-                    className={`w-1/2 px-4 py-2 text-sm font-medium transition-all rounded-none ${activeTab === 'work'
+                    className={`w-1/2 px-4 py-2 text-sm font-medium transition-all rounded-none cursor-pointer ${activeTab === 'work'
                             ? 'bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300'
                             : 'text-muted-foreground'
                         }`}
@@ -68,7 +68,7 @@ export default function Experience() {
                     Work Experience
                 </button>
                 <button
-                    className={`w-1/2 px-4 py-2 text-sm font-medium transition-all rounded-none ${activeTab === 'education'
+                    className={`w-1/2 px-4 py-2 text-sm font-medium transition-all rounded-none cursor-pointer ${activeTab === 'education'
                             ? 'bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300'
                             : 'text-muted-foreground'
                         }`}

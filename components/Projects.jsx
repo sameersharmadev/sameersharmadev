@@ -24,7 +24,7 @@ const projects = [
 
 export default function Projects() {
     return (
-        <section className="max-w-6xl mx-auto p-6 mt-12">
+        <section className="max-w-6xl mx-auto p-6 mt-12 cursor-default">
             <h3 className="text-3xl font-bold mb-8">Projects</h3>
             <div className="space-y-10">
                 {projects.map((project, index) => (
