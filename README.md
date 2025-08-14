@@ -7,3 +7,4 @@
 🗄️ Databases: MongoDB PostgreSQL<br>
 🔧 Tools: Figma Linux Git Docker<br>
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sameersharma777/) [![eail](https://img.shields.io/badge/Mail-D14836?logo=gmail&logoColor=white)](mailto:sameer@sameersharma.me) <img src="https://komarev.com/ghpvc/?username=sameersharmadev&label=visitor%20Count&color=0e75b6&style=flat" alt="sameer-sharma" />
