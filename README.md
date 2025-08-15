@@ -1,7 +1,7 @@
 ![mBOLoZc-ezgif com-crop (1)](https://github.com/user-attachments/assets/d0724963-31dc-485b-83d3-7e8a1e30fc75)
 # Hello Everyone!
 I am Sameer Sharma, a full stack developer, and a Computer Science student. <br>
-I love open source and making projects that make people’s lives easier. <br>
+I love contributing to open source and building projects that make people’s lives easier.<br>
 I also freelance and help local businesses build their online presence<br>
 ### Stuff I know
 - React, Next.js, Node.js, Express.js, MongoDB, PostgreSQL
