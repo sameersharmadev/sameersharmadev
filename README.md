@@ -1,5 +1,5 @@
 ![mBOLoZc-ezgif com-crop](https://github.com/user-attachments/assets/8e2c9229-e394-4f97-9ab6-cbbc25cab6be)
-# Hello Everyone!
+# Hello There!
 
 I am Sameer Sharma, a full stack developer, and a Computer Science student. <br>
 I love contributing to open source and building projects that make people’s lives easier.<br>
