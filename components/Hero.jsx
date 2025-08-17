@@ -8,16 +8,15 @@ export default function AboutSection() {
                 <h3 className="text-3xl font-bold">About</h3>
                 <div>
                     <p className="mb-2">
-                        Hello there! I am Sameer Sharma, a computer science student at <a href="https://mait.ac.in/" className="text-blue-500 hover:opacity-80" target="_blank" rel="noopener noreferrer">MAIT</a>, expected to graduate in 2027.
-                        I have experience in full-stack development using technologies like React, Next.js, Node.js, and PostgreSQL.
+                        Hello there! I am Sameer Sharma, a full stack developer with experience in technologies like React.js, Next.js, and the Node.js ecosystem.
                     </p>
 
                     <p className="mb-2">
-                        I worked on full-stack projects as an intern at <a href="https://cantilever.in" className="text-blue-500 hover:opacity-80" target="_blank" rel="noopener noreferrer">Cantilever</a>, where I designed efficient APIs with query optimizations, and built responsive UIs using React. I have also independently developed a <a href="http://chrono.sameersharma.me" className="text-blue-500 hover:opacity-80" target="_blank" rel="noopener noreferrer">task management tool</a> with progress tracking and a collaborative <a href="http://devlog.sameersharma.me" className="text-blue-500 hover:opacity-80" target="_blank" rel="noopener noreferrer">blogging platform</a> for developers with markdown editor and social features.
+                        I love building real-world web applications that make a meaningful impact, focusing on intuitive user flows supported by strong, scalable, and reliable technical foundations.
                     </p>
 
                     <p className="mb-2">
-                        I also <a href="https://inclearsite.sameersharma.me/" className="text-blue-500 hover:opacity-80" target="_blank" rel="noopener noreferrer">freelance</a> and help brands build their online presence with conversion focussed websites. I love open source and have contributed to some of my favorite projects.
+                        I also freelance and help brands build their online presence with conversion focussed websites. I love open source and have contributed to some of my favorite projects.
                     </p>
                 </div>
 
