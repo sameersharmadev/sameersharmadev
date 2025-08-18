@@ -2,7 +2,6 @@
 # Hello Everyone! 
 I am Sameer Sharma, a full stack developer, and a Computer Science student. <br>
 I love open source and making projects that make people’s lives easier. <br>
-I also freelance and help local businesses build their online presence
 ### Stuff I know
 - React, Next.js, Node.js, Express.js, MongoDB, PostgreSQL
 - C++, Java, Javascript, Python
