@@ -9,10 +9,10 @@ const openSourcePRs = [
         tags: [{ label: "enhancement", color: "green" }],
     },
     {
-        id: "fluxcd",
-        title: "FluxCD - Fix CSS issue in sidebar component",
-        link: "https://github.com/fluxcd/website/pull/2320",
-        description: "Fixed the sidebar layout to occupy the full available height while preserving scroll functionality, ensuring users can easily see that more content exists below. This improvement enhanced usability and visual clarity, preventing the previous layout from giving the illusion that the sidebar was empty or incomplete",
+        id: "premid",
+        title: "PreMID - Fix Discord Rich Presence",
+        link: "https://github.com/PreMiD/Activities/pull/9907",
+        description: "Resolved undefined WPM and accuracy values in Monkeytype stats, corrected timestamp formatting to avoid duplicate session times, and introduced a loading state. These improvements ensure stable, accurate, and consistent display of live statistics without visual glitches during reload.",
         tags: [{ label: "bugfix", color: "red" }],
     },
 ];
@@ -22,7 +22,6 @@ const tagStyles = {
     green: "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300",
     yellow: "bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-300",
     gray: "bg-gray-100 dark:bg-gray-900/30 text-gray-700 dark:text-gray-300",
-    // Add more colors if needed
 };
 
 export default function OpenSource() {
@@ -32,7 +31,7 @@ export default function OpenSource() {
             <div className="space-y-10">
                 {openSourcePRs.map((pr, idx) => (
                     <div key={pr.id} className="space-y-2">
-                        <div className="flex items-center gap-3">
+                        <div className="items-center gap-3">
                             <a
                                 href={pr.link}
                                 target="_blank"
@@ -41,7 +40,6 @@ export default function OpenSource() {
                             >
                                 {pr.title}
                             </a>
-                            {/* Tags directly after title */}
                             {pr.tags?.map((tag, tagIdx) => (
                                 <span
                                     key={tagIdx}
