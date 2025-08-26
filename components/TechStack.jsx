@@ -3,6 +3,7 @@ import {
     SiCss3,
     SiJavascript,
     SiReact,
+    SiTypescript,
     SiNextdotjs,
     SiTailwindcss,
     SiNodedotjs,
@@ -10,7 +11,6 @@ import {
     SiMongodb,
     SiPostgresql,
     SiFigma,
-    SiGit,
 } from "react-icons/si";
 
 const techStack = [
@@ -18,6 +18,7 @@ const techStack = [
     { name: "CSS", icon: SiCss3 },
     { name: "JavaScript", icon: SiJavascript },
     { name: "React", icon: SiReact },
+    { name: "TypeScript", icon: SiTypescript },
     { name: "Next.js", icon: SiNextdotjs },
     { name: "Tailwind", icon: SiTailwindcss },
     { name: "Node.js", icon: SiNodedotjs },
@@ -25,7 +26,6 @@ const techStack = [
     { name: "MongoDB", icon: SiMongodb },
     { name: "PostgreSQL", icon: SiPostgresql },
     { name: "Figma", icon: SiFigma },
-    { name: "Git", icon: SiGit },
 ];
 
 export default function TechStack() {

@@ -12,11 +12,11 @@ export default function AboutSection() {
                     </p>
 
                     <p className="mb-2">
-                        I love building real-world web applications that make a meaningful impact, focusing on intuitive user flows supported by strong, scalable, and reliable technical foundations.
+                        I love building stuff that make a meaningful impact, focusing on intuitive user experience supported by strong, scalable, and reliable technical foundations.
                     </p>
 
                     <p className="mb-2">
-                        I also freelance and help brands build their online presence with conversion focussed websites. I love open source and have contributed to some of my favorite projects.
+                        I also freelance and help brands build their online presence with conversion focussed websites. I love open source and often contribute to my favorite projects.
                     </p>
                 </div>
 
