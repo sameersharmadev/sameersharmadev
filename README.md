@@ -3,8 +3,8 @@
 I am Sameer Sharma, a full stack developer, and a Computer Science student. <br>
 I love open source and building stuff that make people’s lives easier. <br>
 ### Stuff I know
-- React, Next.js, Node.js, Express.js, MongoDB, PostgreSQL
-- C++, Java, Javascript, Python
+- React, Next.js, Node.js, Express.js, MongoDB, PostgreSQL, Redis
+- C++, Java, Javascript, Typescript, Python
 - Figma, Linux, Git, Docker
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-2C7A73?style=for-the-badge&logo=google-chrome&logoColor=white)](https://sameersharma.me)
