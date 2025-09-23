@@ -1,6 +1,16 @@
 import ProjectScreenshots from './ProjectScreenshots';
 const projects = [
     {
+        id: "canverse",
+        title: "Canverse - Real Time Collaborative Whiteboard",
+        live: "https://canverse.sameersharma.me/",
+        code: "https://github.com/sameersharmadev/canverse",
+        description:
+            "A real-time collaborative whiteboard application that allows users to draw, sketch, and brainstorm ideas together. Built with WebRTC for real-time voice communication and a custom canvas library for drawing features. Users can create rooms, invite others, join voice channels, and work on the canvas simultaneously.",
+        tags: ["React", "Socket.io", "WebRTC", "Redis"],
+        screens: 4,
+    },
+    {
         id: "devlog",
         title: "Devlog - Collaborative Blogging Platform",
         live: "https://devlog.sameersharma.me/",

@@ -44,13 +44,13 @@ const techStack = [
     { name: "Express", icon: SiExpress },
     { name: "MongoDB", icon: SiMongodb },
     { name: "PostgreSQL", icon: SiPostgresql },
-    { name: "Figma", icon: SiFigma },
     { name: "Redis", icon: Database },
     { name: "AWS", icon: AwsIcon },
     { name: "Supabase", icon: Zap },
     { name: "Docker", icon: SiDocker },
     { name: "Linux", icon: SiLinux },
     { name: "Git", icon: SiGit },
+    { name: "Figma", icon: SiFigma },
 ];
 
 export default function TechStack() {

@@ -36,7 +36,7 @@ export default function Experience() {
         {
             id: 'cantilever',
             company: 'Cantilever',
-            title: 'Full Stack Intern',
+            title: 'Full Stack Development Intern',
             duration: 'Jun 2025 - Jul 2025',
             description:
                 'Got experience building secure, feature-rich web apps with React, Tailwind, and Supabase, focusing on auth, access control, and API performance.',
