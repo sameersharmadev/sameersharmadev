@@ -6,7 +6,7 @@ const projects = [
         live: "https://canverse.sameersharma.me/",
         code: "https://github.com/sameersharmadev/canverse",
         description:
-            "A real-time collaborative whiteboard application that allows users to draw, sketch, and brainstorm ideas together. Built with WebRTC for real-time voice communication and a custom canvas library for drawing features. Users can create rooms, invite others, join voice channels, and work on the canvas simultaneously.",
+            "A real-time collaborative whiteboard application for drawing, sketching, and brainstorming together. Built with WebRTC for voice communication and a custom canvas library. Users can create rooms, invite others, join voice channels, and work on the canvas simultaneously. Used Redis for session management and Socket.io for real-time updates.",
         tags: ["React", "Socket.io", "WebRTC", "Redis"],
         screens: 4,
     },
@@ -16,7 +16,7 @@ const projects = [
         live: "https://devlog.sameersharma.me/",
         code: "https://github.com/sameersharmadev/devlog",
         description:
-            "A developer-focused collaborative blogging platform inspired by dev.to, supporting technical writing with a Markdown editor and social features. The platform includes user authentication using JWT and Google OAuth, enabling secure and frictionless sign-ins. I designed features such as public user profiles, threaded comments, and real-time updates powered by Supabase. To enhance discoverability and engagement, I implemented search functionality, trending feeds, image uploads, and SEO-optimized post structures.",
+            "A developer-focused collaborative blogging platform inspired by dev.to, supporting technical writing with a Markdown editor and social features. Includes user authentication via JWT and Google OAuth. Features public user profiles, threaded comments, and community building features. Implemented search functionality, trending feeds, image uploads, and SEO-optimized post structures.",
         tags: ["React", "PostgreSQL", "ShadCN", "TailwindCSS"],
         screens: 6,
     },
@@ -26,7 +26,7 @@ const projects = [
         live: "https://chrono.sameersharma.me/",
         code: "https://github.com/sameersharmadev/chrono",
         description:
-            "A productivity app to help users stay on top of their tasks with reminders, subtasks, and a calendar-based view that tracks progress over time. I handled the backend using Express and PostgreSQL, setting up REST APIs to manage tasks and user data. To keep things smooth and informative, I added a paginated dashboard with weekly summaries and insights. The UI is fully responsive and supports dark/light mode, built with React and Tailwind CSS, with modals for quick task creation and edits.",
+            "A productivity app to manage tasks with reminders, subtasks, and a calendar view. Built the backend with Express and PostgreSQL, creating REST APIs for tasks and user data. Added a paginated dashboard with weekly summaries. The responsive UI, built with React and Tailwind CSS, supports dark/light mode and modals for quick task creation and edits.",
         tags: ["React", "PostgreSQL", "TailwindCSS", "Express"],
         screens: 6,
     },
