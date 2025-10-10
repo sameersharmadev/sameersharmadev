@@ -7,7 +7,7 @@ function ExperienceCard({ id, company, title, duration, description, type }) {
         <div className="pt-3 space-y-1 md:space-y-2">
             <div className="flex items-start flex-col md:flex-row gap-2 justify-between">
                 <div className="flex items-center space-x-4">
-                    <div className="relative w-10 h-10 flex-shrink-0 rounded-full overflow-hidden bg-white">
+                    <div className="relative w-10 h-10 flex-shrink-0 rounded-full overflow-hidden">
                         <Image
                             src={`/${type}/${id}.webp`}
                             alt={`${company} logo`}
@@ -34,13 +34,29 @@ export default function Experience() {
 
     const workExperience = [
         {
+            id: 'inclearsite',
+            company: 'InClearSite',
+            title: 'Freelance Developer',
+            duration: 'Jan 2024 - Present',
+            description:
+               'Worked with small businesses to enhance their online presence and drive conversions. Built full-stack, conversion-focused websites with responsive design, backend functionality, and deployment. Delivered websites that helped clients grow their business, with 90% satisfaction.'
+        },
+        {
             id: 'cantilever',
             company: 'Cantilever',
             title: 'Full Stack Development Intern',
             duration: 'Jun 2025 - Jul 2025',
             description:
-                'Got experience building secure, feature-rich web apps with React, Tailwind, and Supabase, focusing on auth, access control, and API performance.',
+                'Developed a full-stack platform with secure authentication and role-based access. I created React components, designed database schemas, and built performance-optimized APIs. This reduced API response time by 35%, and improved first contentful paint by 20%.',
         },
+        {
+            id: 'simmature',
+            company: 'Simmature',
+            title: 'Software Development Intern',
+            duration: 'Oct 2025 - Present',
+            description:
+                'Developed and optimized real-time chat features using WebSockets, reducing message latency by 35%. Implemented CI/CD pipelines with GitHub Actions to automate testing and deployment. Collaborated and used technical documentation to deliver production-ready features.'
+        }
     ];
 
     const educationExperience = [
@@ -79,7 +95,7 @@ export default function Experience() {
             </div>
 
 
-            <div className="rounded-lg p-4 space-y-6">
+            <div className="rounded-lg p-4 gap-4 flex flex-col-reverse">
                 {data.map((item, index) => (
                     <ExperienceCard
                         key={index}

@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <section className=" h-[calc(100vh)] overflow-y-auto hide-scrollbar">
-        <div className="flex flex-col md:flex-row max-w-6xl mx-auto">
+        <div className="flex flex-col md:flex-row max-w-7xl mx-auto">
         <Sidebar />
         <div className="flex-1">
           <Hero />

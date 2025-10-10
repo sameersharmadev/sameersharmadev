@@ -13,7 +13,7 @@ export default function AboutSidebar() {
                 <p className="text-sm text-muted-foreground">CSE @ MAIT, New Delhi</p>
                 <p>Full stack web developer</p>
                 <div className="w-full border-b border-gray-300 dark:border-gray-600 my-3"></div>
-                <div className="flex flex-row flex-wrap gap-2">
+                <div className="flex flex-row flex-wrap gap-x-4 gap-y-1 text-sm">
                     <a
                         href="mailto:sameer@sameersharma.me"
                         className="flex items-center gap-1 text-gray-700 dark:text-gray-300 hover:opacity-80"
@@ -27,7 +27,6 @@ export default function AboutSidebar() {
                         rel="noopener noreferrer"
                         className="flex items-center gap-1 text-gray-700 dark:text-gray-300 hover:opacity-80"
                     >
-
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 icon icon-tabler icons-tabler-outline icon-tabler-briefcase-2"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3 9a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-9z" /><path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" /></svg>
                         LinkedIn
                     </a>
@@ -73,7 +72,7 @@ export default function AboutSidebar() {
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
                             height="24"
-                            viewBox="0 0 20 20"
+                            viewBox="0 0 24 24"
                             fill="none"
                             stroke="currentColor"
                             strokeWidth="2"
@@ -89,7 +88,7 @@ export default function AboutSidebar() {
                         LeetCode
                     </a>
                 </div>
-                <div className="flex flex-row gap-1 mt-2 items-center text-gray-700 dark:text-gray-300">
+                <div className="flex flex-row gap-1 mt-3 items-center text-gray-700 dark:text-gray-300">
                     <MapPin className="w-4 h-4 text-gray-700 dark:text-gray-300" />
                     <p className="text-sm text-muted-foreground">New Delhi, India (+ 5:30 GMT)</p>
                 </div>

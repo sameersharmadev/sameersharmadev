@@ -9,10 +9,7 @@ export default function AboutSection() {
                 <div>
                     <p className="mb-2">
                         Hello there! I am Sameer Sharma, a full stack developer with experience in technologies like React.js, Next.js, and the Node.js ecosystem.
-                    </p>
-
-                    <p className="mb-2">
-                        I love building stuff that make a meaningful impact, focusing on intuitive user experience supported by strong, scalable, and reliable technical foundations.
+                        I love building stuff that create meaningful impact and add real world value.
                     </p>
 
                     <p className="mb-2">
