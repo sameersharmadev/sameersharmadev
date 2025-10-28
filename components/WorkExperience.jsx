@@ -47,15 +47,15 @@ export default function Experience() {
             title: 'Full Stack Development Intern',
             duration: 'Jun 2025 - Jul 2025',
             description:
-                'Developed a full-stack platform with secure authentication and role-based access. I created React components, designed database schemas, and built performance-optimized APIs. This reduced API response time by 35%, and improved first contentful paint by 20%.',
+                'Developed and optimized React components for core product features, integrated REST APIs and collaborated on endpoint/data design with backend engineers, and applied performance and resiliency improvements to enhance stability and user experience.',
         },
         {
-            id: 'simmature',
-            company: 'Simmature',
-            title: 'Software Development Intern',
+            id: 'vigovia',
+            company: 'Vigovia',
+            title: 'Frontend Development Intern',
             duration: 'Oct 2025 - Present',
             description:
-                'Developed and optimized real-time chat features using WebSockets, reducing message latency by 35%. Implemented CI/CD pipelines with GitHub Actions to automate testing and deployment. Collaborated and used technical documentation to deliver production-ready features.'
+                'Developed and optimized React components for critical sections of the web application, improving performance and user experience. Implemented responsive designs and collaborated with backend developers to integrate APIs, resulting in a 25% increase in user engagement.',
         }
     ];
 
