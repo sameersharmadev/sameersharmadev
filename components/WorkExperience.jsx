@@ -44,7 +44,7 @@ export default function Experience() {
         {
             id: 'cantilever',
             company: 'Cantilever',
-            title: 'Full Stack Development Intern',
+            title: 'Software Development Intern',
             duration: 'Jun 2025 - Jul 2025',
             description:
                 'Developed and optimized React components for core product features, integrated REST APIs and collaborated on endpoint/data design with backend engineers, and applied performance and resiliency improvements to enhance stability and user experience.',
@@ -52,7 +52,7 @@ export default function Experience() {
         {
             id: 'vigovia',
             company: 'Vigovia',
-            title: 'Frontend Development Intern',
+            title: 'Software Development Intern',
             duration: 'Oct 2025 - Present',
             description:
                 'Developed and optimized React components for critical sections of the web application, improving performance and user experience. Implemented responsive designs and collaborated with backend developers to integrate APIs, resulting in a 25% increase in user engagement.',
