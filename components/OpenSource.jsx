@@ -24,10 +24,10 @@ const communityEntries = [
 ];
 
 const tagStyles = {
-    red: "bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-300",
-    green: "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300",
-    yellow: "bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-300",
-    gray: "bg-gray-100 dark:bg-gray-900/30 text-gray-700 dark:text-gray-300",
+    red: "bg-red-100 text-red-700",
+    green: "bg-green-100 text-green-700",
+    yellow: "bg-yellow-100 text-yellow-700",
+    gray: "bg-gray-100 text-gray-700",
 };
 
 export default function CommunityEngagement() {
@@ -81,7 +81,7 @@ export default function CommunityEngagement() {
                             <p className="text-sm text-muted-foreground">{entry.description}</p>
                         </div>
                         {idx < communityEntries.length - 1 && (
-                            <div className="border-t border-gray-300 dark:border-white/20 mt-6"></div>
+                            <div className="border-t border-gray-300 mt-6"></div>
                         )}
                     </div>
                 ))}

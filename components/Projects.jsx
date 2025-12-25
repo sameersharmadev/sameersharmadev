@@ -54,7 +54,7 @@ export default function Projects() {
                             {project.tags.map((tag, idx) => (
                                 <span
                                     key={idx}
-                                    className="px-2 py-1 text-xs rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300"
+                                    className="px-2 py-1 text-xs rounded-full bg-blue-100 text-blue-700"
                                 >
                                     {tag}
                                 </span>
@@ -75,7 +75,7 @@ export default function Projects() {
                                 href={project.code}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="px-3 py-1.5 text-sm rounded-md bg-gray-200 text-gray-800 hover:bg-gray-300 dark:bg-white/10 dark:text-white dark:hover:bg-white/20 transition"
+                                className="px-3 py-1.5 text-sm rounded-md bg-gray-200 text-gray-800 hover:bg-gray-300 transition"
                             >
                                 View Code
                             </a>
@@ -83,7 +83,7 @@ export default function Projects() {
                                 href={project.live}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="px-3 py-1.5 text-sm rounded-md bg-gray-200 text-gray-800 hover:bg-gray-300 dark:bg-white/10 dark:text-white dark:hover:bg-white/20 transition"
+                                className="px-3 py-1.5 text-sm rounded-md bg-gray-200 text-gray-800 hover:bg-gray-300 transition"
                             >
                                 Live Demo
                             </a>
@@ -92,7 +92,7 @@ export default function Projects() {
 
                         {/* Divider */}
                         {index < projects.length - 1 && (
-                            <div className="border-t border-gray-300 dark:border-white/20 mt-6"></div>
+                            <div className="border-t border-gray-300 mt-6"></div>
                         )}
                     </div>
                 ))}

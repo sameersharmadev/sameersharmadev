@@ -23,9 +23,13 @@ export default function ProjectScreenshots({ projectId, totalScreens }) {
         }
     }, []);
 
-    const mode = resolvedTheme === 'dark' ? 'dark' : 'light';
+    // const mode = resolvedTheme === 'dark' ? 'dark' : 'light';
+    // const images = Array.from({ length: totalScreens }, (_, i) =>
+    //     `/projects/${projectId}/${mode}/${i + 1}.png`
+    // );
+    // Only use light mode images for now
     const images = Array.from({ length: totalScreens }, (_, i) =>
-        `/projects/${projectId}/${mode}/${i + 1}.png`
+        `/projects/${projectId}/light/${i + 1}.png`
     );
 
     const maxThumbs = isMobile ? 3 : 4;
@@ -78,7 +82,7 @@ export default function ProjectScreenshots({ projectId, totalScreens }) {
                             className="rounded-md object-cover hover:opacity-80 transition"
                         />
                         {idx === visibleImages.length - 1 && extraCount > 0 && (
-                            <div className="absolute inset-0 bg-black/30 dark:bg-black/60 text-white text-sm font-medium rounded-md flex items-center justify-center">
+                            <div className="absolute inset-0 bg-black/25 text-white text-sm font-medium rounded-md flex items-center justify-center">
                                 +{extraCount}
                             </div>
                         )}

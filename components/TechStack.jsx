@@ -94,7 +94,7 @@ export default function TechStack() {
                     return (
                         <div
                             key={tech.name}
-                            className="flex items-center space-x-2 p-3 rounded-lg transition-colors bg-gray-100 dark:bg-white/5"
+                            className="flex items-center space-x-2 p-3 rounded-lg transition-colors bg-gray-100"
                         >
                             {typeof Icon === "function" && (Icon.name.endsWith('Icon') || Icon === NodeIcon) ? (
                                 <Icon className="w-5 h-5" />
