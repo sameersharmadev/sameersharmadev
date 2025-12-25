@@ -35,11 +35,11 @@ const projects = [
 export default function Projects() {
     return (
         <section className="max-w-6xl mx-auto p-6 mt-12 cursor-default">
-            <h3 className="text-3xl font-bold mb-8">Projects</h3>
-            <div className="space-y-10">
+            <h3 className="text-2xl font-bold mb-2">Projects</h3>
+            <div className="space-y-4">
                 {projects.map((project, index) => (
                     <div key={index} className="space-y-3">
-                        {/* Title (links to live project) */}
+                        {/* Title */}
                         <a
                             href={project.live}
                             target="_blank"

@@ -37,17 +37,9 @@ export default function Experience() {
             id: 'inclearsite',
             company: 'InClearSite',
             title: 'Freelance Developer',
-            duration: 'Jan 2024 - Present',
+            duration: 'Jan 2025 - Sep 2025',
             description:
-               'Worked with small businesses to enhance their online presence and drive conversions. Built full-stack, conversion-focused websites with responsive design, backend functionality, and deployment. Delivered websites that helped clients grow their business, with 90% satisfaction.'
-        },
-        {
-            id: 'cantilever',
-            company: 'Cantilever',
-            title: 'Software Development Intern',
-            duration: 'Jun 2025 - Jul 2025',
-            description:
-                'Developed and optimized React components for core product features, integrated REST APIs and collaborated on endpoint/data design with backend engineers, and applied performance and resiliency improvements to enhance stability and user experience.',
+               'Worked with small businesses to improve their online presence and drive conversions. Built full-stack websites with responsive design, backend functionality, and deployment handled end to end. Clients reported noticeable increases in user engagement and conversion after launch, with overall client satisfaction around 90%.'
         },
         {
             id: 'vigovia',
@@ -55,7 +47,7 @@ export default function Experience() {
             title: 'Software Development Intern',
             duration: 'Oct 2025 - Present',
             description:
-                'Developed and optimized React components for critical sections of the web application, improving performance and user experience. Implemented responsive designs and collaborated with backend developers to integrate APIs, resulting in a 25% increase in user engagement.',
+                'Improved frontend performance by deferring script execution and preloading critical assets, resulting in significantly faster page loads and around a 60% reduction in LCP. Set up CI/CD pipelines with automated tests and build checks to make releases faster and more reliable. Worked closely with the team, using existing documentation and discussions to ship features that were ready for real-world use.',
         }
     ];
 
@@ -64,16 +56,16 @@ export default function Experience() {
             id: 'mait',
             company: 'Maharaja Agrasen Institute of Technology',
             title: 'B.Tech (CSE)',
-            duration: 'Aug 2023 - Jul 2027',
-            description: 'Pursuing core CS subjects including Data Structures, Operating Systems, and Software Engineering. Actively involved in development.',
+            duration: 'Aug 2023 - Present',
+            description: 'Pursuing core CS subjects including Data Structures, Alogrithms, Databases, Computer Networks, Operating Systems, and Software Engineering. Actively involved in development and lead on campus Google Developer Groups as a Tech Mentor and Core Team Member.',
         },
     ];
 
     const data = activeTab === 'work' ? workExperience : educationExperience;
 
     return (
-        <section className="max-w-6xl mx-auto p-6 cursor-default">
-            <div className="flex w-full rounded-lg overflow-hidden mb-2">
+        <section className="max-w-6xl mx-auto px-6 cursor-default">
+            <div className="flex w-full rounded-lg overflow-hidden">
                 <button
                     className={`w-1/2 px-4 py-2 text-sm font-medium transition-all rounded-none cursor-pointer ${activeTab === 'work'
                             ? 'bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300'

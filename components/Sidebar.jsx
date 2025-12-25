@@ -1,4 +1,4 @@
-import { Mail, MapPin } from "lucide-react";
+import { Mail, MapPin, Building } from "lucide-react";
 
 export default function AboutSidebar() {
     return (
@@ -11,7 +11,10 @@ export default function AboutSidebar() {
                 />
                 <h2 className="text-2xl font-semibold mt-4">Sameer Sharma</h2>
                 <p className="text-sm text-muted-foreground">CSE @ MAIT, New Delhi</p>
-                <p>Full stack web developer</p>
+                <div className="flex items-center gap-1 mt-1 text-gray-700 dark:text-gray-300">
+                    <Building className="w-4 h-4" />
+                    <span className="text-sm">Viogiva, SDE Intern</span>
+                </div>
                 <div className="w-full border-b border-gray-300 dark:border-gray-600 my-3"></div>
                 <div className="flex flex-row flex-wrap gap-x-4 gap-y-1 text-sm">
                     <a

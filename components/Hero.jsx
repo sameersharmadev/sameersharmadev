@@ -1,19 +1,12 @@
-import { Mail, Github } from "lucide-react";
-
 export default function AboutSection() {
     return (
         <section className="flex flex-col md:flex-row gap-8 items-start w-full max-w-6xl mx-auto p-6 md:mt-8 cursor-default">
-            {/* Right About Text */}
-            <div className="space-y-4">
-                <h3 className="text-3xl font-bold">About</h3>
+            <div className="space-y-2">
+                <h3 className="text-2xl font-bold">About Me</h3>
                 <div>
                     <p className="mb-2">
-                        Hello there! I am Sameer Sharma, a full stack developer with experience in technologies like React.js, Next.js, and the Node.js ecosystem.
-                        I love building stuff that create meaningful impact and add real world value.
-                    </p>
-
-                    <p className="mb-2">
-                        I also freelance and help brands build their online presence with conversion focussed websites. I love open source and often contribute to my favorite projects.
+                        I’m a computer science student who loves working on real-world products and solving practical problems. I specialize in full-stack development, with a focus on writing clean, maintainable, and reliable software.<br/>
+                        I’m currently working as an intern at <a href="https://in.linkedin.com/company/vigovia" target="_blank" className="text-blue-500">Vigovia</a>, a travel tech startup. Outside of work, I love experimenting and learning new things, refining my workflow, and contributing to open-source projects.
                     </p>
                 </div>
 
