@@ -17,7 +17,7 @@ export default function Home() {
           <Projects />
           <OpenSource />
           <footer className="py-6 text-center text-sm text-gray-600 dark:text-gray-400 cursor-default">
-            © Sameer Sharma 2025. All rights reserved.
+            © Sameer Sharma 2026. All rights reserved.
           </footer>
         </div>
         </div>
