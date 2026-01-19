@@ -5,7 +5,7 @@ const communityEntries = [
         id: "owasp",
         title: "OWASP - Open Source Contributor",
         description:
-            "OWASP is a global nonprofit dedicated to improving software security, with 250+ local chapters worldwide. I have contributed extensively to the Nest project, OWASP’s central hub for exploring projects and contribution opportunities. My work includes large-scale frontend migrations, bug fixes, new features, and ongoing enhancements, all aimed at making the platform more accessible and impactful for the open source community.",
+            "OWASP is a global nonprofit dedicated to improving software security, with 250+ local chapters worldwide. I majorly contribute to the Nest project, OWASP’s central hub for exploring projects and contribution opportunities. My work includes frontend migrations, bug fixes, new features, and ongoing enhancements, all aimed at making the platform more accessible and impactful for the open source community.",
         tags: [{ label: "open source", color: "green" }],
     },
     {

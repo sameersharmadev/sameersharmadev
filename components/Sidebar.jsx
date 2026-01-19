@@ -7,7 +7,7 @@ export default function AboutSidebar() {
                 <img
                     src="/profile.webp"
                     alt="Profile Picture"
-                    className="w-36 h-36 rounded-full object-cover shadow-md border border-gray-300"
+                    className="w-36 h-36 rounded-full object-cover border border-gray-300"
                 />
                 <h2 className="text-2xl font-semibold mt-4">Sameer Sharma</h2>
                 <p className="text-sm text-muted-foreground">CSE @ MAIT, New Delhi</p>
