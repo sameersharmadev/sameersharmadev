@@ -2,7 +2,3 @@
 # Hello Everyone! 
 I am Sameer Sharma, a full stack developer, and a Computer Science student. <br>
 I love open source and building stuff that make people’s lives easier. <br>
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-3B8C89?style=for-the-badge&logo=google-chrome&logoColor=white)](https://sameersharma.me)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sameersharma777/)
-[![Email](https://img.shields.io/badge/Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sameer@sameersharma.me)
