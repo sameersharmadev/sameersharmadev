@@ -1,15 +1,5 @@
-import{
-    SiHtml5,
-    SiCss3,
-    SiTypescript,
-    SiNextdotjs,
-    SiTailwindcss,
-    SiMongodb,
-    SiDjango,
-    SiDocker,
-    SiGit,
-    SiExpress,
-} from "react-icons/si";
+import{SiHtml5,SiCss3,SiTypescript,SiNextdotjs,SiTailwindcss,SiMongodb,SiDjango,SiDocker,SiGit,SiExpress} from "react-icons/si";
+import {FaGolang} from "react-icons/fa6"
 import { BiLogoPostgresql } from "react-icons/bi";
 
 
@@ -69,6 +59,7 @@ const techStack = [
     { name: "CSS", icon: SiCss3, color: "#1572B6" },
     { name: "JavaScript", icon: JsIcon },
     { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
+    { name: "Go", icon:FaGolang, color: "#3178C6"},
     { name: "Python", icon: PythonIcon },
     { name: "Django", icon: SiDjango, color: "#379A4B" },
     { name: "React", icon: ReactIcon },

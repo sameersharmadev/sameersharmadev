@@ -20,6 +20,7 @@ const communityEntries = [
         title: "Godot, PreMiD, FluxCD, Vercel, Supabase - Other Contributions",
         description:
             "I’ve also contributed several other open source organizations, with my work spanning across accessibility improvements, bug fixes, new features, and community support, with a focus on making technology more reliable and inclusive for everyone.",
+        tags: [{ label: "open source", color: "green" }],
     },
 ];
 
