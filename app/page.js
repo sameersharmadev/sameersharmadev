@@ -4,6 +4,7 @@ import WorkExperience from "@/components/WorkExperience";
 import TechStack from "@/components/TechStack";
 import Projects from "@/components/Projects";
 import OpenSource from "@/components/OpenSource";
+import Achievements from "@/components/Achievements";
 export default function Home() {
   return (
     <>
@@ -15,6 +16,7 @@ export default function Home() {
           <WorkExperience />
           <TechStack />
           <Projects />
+          <Achievements />
           <OpenSource />
           <footer className="py-6 text-center text-sm text-gray-600 dark:text-gray-400 cursor-default">
             © Sameer Sharma 2026. All rights reserved.
